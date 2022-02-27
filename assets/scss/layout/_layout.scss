@@ -1,0 +1,16 @@
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container{
+    max-width: 1024px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.section{
+    padding: 4.5rem 0 1rem;
+
+    // Important, When you insert your content, 
+    // remove the section height class
+    &__height{
+        height: 100vh;
+    }
+}
